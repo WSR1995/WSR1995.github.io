@@ -1,8 +1,24 @@
-{background: url("C:\Users\WSREn\OneDrive\Documents\Wellington S Ramsey - WSR\Education\General Assembly - Online Course - HTML, CSS, & Web Design Circuit\WSR1995.github.io\Unit_3\Images"); }
-{background-size: cover;}
 
-h1 { text-align: center;
+h1 { 
+	text-align: center;
  }
 
- p {text-align: center;
+ body {
+ 	text-align: center;
+ 	font-family: helvetica;
+} 	
+
+.hero {
+	background-image: url('../images/island.jpg');
+	height: 800px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }	
+
+.circle {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	background-image: url('../images/island.jpg');
+	background-size: cover;
