@@ -1,7 +1,18 @@
 
 h1 { 
 	text-align: center;
+	color: rgba(02,21,59,1);
+	font-size: 100px;
+	font-family: "Times New Roman";
  }
+
+header {
+	text-align: center;
+	color: rgba(02,21,59,1);
+	font-size: 30px;
+	font-family: "Times New Roman";
+	font-style: italic;
+}
 
  body {
  	text-align: center;
@@ -9,8 +20,8 @@ h1 {
 } 	
 
 .hero {
-	background-image: url('../images/island.jpg');
-	height: 800px;
+	background-image: url('../images/people.jpg');
+	height: 900px;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -20,5 +31,5 @@ h1 {
 	height: 100px;
 	width: 100px;
 	border-radius: 50%;
-	background-image: url('../images/people.jpg');
+	background-image: url('../images/beach.jpg');
 	background-size: cover;
