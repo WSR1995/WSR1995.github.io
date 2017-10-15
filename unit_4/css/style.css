@@ -1,0 +1,63 @@
+
+h1 { 
+	text-align: center;
+	color: rgba(02,21,59,1);
+	font-size: 100px;
+	font-family: "Times New Roman";
+ }
+
+nav {text-align: right;
+	font-size: 15px;
+	text-rendering: 10px;
+	word-spacing: 15px;
+}
+
+header {
+	text-align: center;
+	color: rgba(02,21,59,1);
+	font-size: 30px;
+	font-family: "Times New Roman";
+	font-style: italic;
+}
+
+ body {
+ 	text-align: center;
+ 	font-family: helvetica;
+} 	
+
+p {
+	text-align: center;
+}
+
+
+
+.hero {
+	background-image: url('../images/background.jpg');
+	height: 900px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat; 
+}	
+
+.circle {
+	height: 300px;
+	width: 300px;
+	border-radius: 100%;
+	background-image: url('../images/people.jpg');
+	background-size: cover;
+	position: center;
+}
+.circle-2 {
+	height: 300px;
+	width: 300px;
+	border-radius: 100%;
+	background-image: url('../images/chair.png');
+	background-size: cover;
+}
+.circle-3 {
+	height: 300px;
+	width: 300px;
+	border-radius: 100%;
+	background-image: url('../images/table.jpeg');
+	background-size: cover;
+}
